@@ -3,12 +3,12 @@ public class Main {
         try {
             ListaDobleEnlazada lista = new ListaDobleEnlazada();
             
-            lista.insertar(new Producto(10, "Producto A", 15.99));
-            lista.insertar(new Producto(5, "Producto B", 10.99));
-            lista.insertar(new Producto(20, "Producto C", 25.99));
-            lista.insertar(new Producto(15, "Producto D", 20.99));
-            lista.insertar(new Producto(8, "Producto E", 12.99));
-            lista.insertar(new Producto(12, "Producto F", 18.99));
+            lista.insertar(new Producto(101, "Laptop Dell XPS 13", 999.99));
+            lista.insertar(new Producto(102, "Smartphone Samsung Galaxy S21", 799.99));
+            lista.insertar(new Producto(103, "Auriculares Bose QuietComfort 35", 299.99));
+            lista.insertar(new Producto(104, "Tablet Apple iPad Pro", 1099.99));
+            lista.insertar(new Producto(105, "Monitor LG UltraWide", 499.99));
+            lista.insertar(new Producto(106, "Teclado Mecánico Logitech", 149.99));
             
             lista.listar();
         } catch (Exception e) {
